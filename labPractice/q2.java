@@ -35,5 +35,6 @@ public class q2 {
         for(int i=0; i<ctn; i++) {
             System.out.print(arr2[i] + " ");
         }
+        a.close();
     }
 }
