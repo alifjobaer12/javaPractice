@@ -1,7 +1,7 @@
 // import java.lang.Character.Subset;
 import java.util.*;
 
-public class q2 {
+public class Lab1__q2 {
     public static void main(String[] args) {
         Scanner a = new Scanner(System.in);
 

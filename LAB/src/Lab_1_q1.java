@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class alif {
+public class Lab_1_q1 {
 
     int sum(int a, int b) {
         return a + b;
@@ -24,7 +24,7 @@ public class alif {
         System.out.println(mn);
         System.out.println(sum);
 
-        alif s = new alif();
+        Lab_1_q1 s = new Lab_1_q1();
         // int t = s.sum(1, 2);
         System.out.println(s.sum(1,2 ));
         // for(int j=0; j<n; j++) {

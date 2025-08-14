@@ -11,7 +11,7 @@ class employees{
     void project() {
         System.out.println("You access this");
 
-    } 
+    }
     void display() {
         System.out.println(name+"\n"+address+"\n"+salary+"\n"+jobTitel);
     }
@@ -42,7 +42,7 @@ class programmer extends employees{
     }
 }
 
-public class lab3_3 {
+public class Lab3_q3 {
     public static void main() {
         manager m = new manager("Alif", "Dhaka", 100000, "Leader");
         devloper d = new devloper("Alif", "Dhaka", 100000, "Leader");

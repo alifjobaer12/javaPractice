@@ -20,7 +20,7 @@ class calculator{
     }
 }
 
-public class lab_2_calculator {
+public class NormalClacutater {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int a, b;
@@ -28,7 +28,7 @@ public class lab_2_calculator {
         a = sc.nextInt();
         s = sc.next().charAt(0);
         b = sc.nextInt();
-        
+
         calculator cal = new calculator(a,b);
         switch (s) {
             case '+':
@@ -43,9 +43,9 @@ public class lab_2_calculator {
             case '/':
                 System.out.println(cal.div());
                 break;
-        
+
             default:
-            System.out.println("Wrong Input");
+                System.out.println("Wrong Input");
                 break;
         }
 

@@ -22,15 +22,15 @@ class Application{
         if(pow<=120) {
             System.out.println("M-"+model+"\n"+"P-"+pow+"W"+"\n"+"C-"+con);
             System.out.println("EcoFrindly");
-        } 
+        }
         else {
             System.out.println("M-"+model+"\n"+"P-"+pow+"W"+"\n"+"C-"+con);
             System.out.println("Not EcoFrindly");
-        } 
+        }
     }
 }
 
-public class lab3_1 {
+public class Lab3_q1 {
     public static void main(String[] args) {
         // System.out.println("alif");
         Scanner in = new Scanner(System.in);
@@ -48,6 +48,6 @@ public class lab3_1 {
 
         in.close();
 
-        
+
     }
 }

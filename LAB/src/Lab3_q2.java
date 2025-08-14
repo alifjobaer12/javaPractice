@@ -36,7 +36,7 @@ class motorcycle extends vaicel{
         fualType = ft;
     }
 }
-public class lab3_2 {
+public class Lab3_q2 {
     public static void main(String[] args) {
         car vc1 = new car("M-car1", 2025, "dissel");
         truk vt1 = new truk("M-car1", 2025, "dissel");
@@ -53,7 +53,7 @@ public class lab3_2 {
         vt1.destencTravel();
         vt1.maximumSpeed();
         System.out.println();
-        
+
         vm1.display();
         vm1.fualEfficency();
         vm1.destencTravel();
