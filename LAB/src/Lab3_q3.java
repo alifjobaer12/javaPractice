@@ -43,7 +43,7 @@ class programmer extends employees{
 }
 
 public class Lab3_q3 {
-    public static void main() {
+    public static void main(String[] args) {
         manager m = new manager("Alif", "Dhaka", 100000, "Leader");
         devloper d = new devloper("Alif", "Dhaka", 100000, "Leader");
         programmer p = new programmer("Alif", "Dhaka", 100000, "Leader");
